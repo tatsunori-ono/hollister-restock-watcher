@@ -57,14 +57,6 @@ SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "").strip()
 EMAIL_FROM = os.environ.get("EMAIL_FROM", "").strip()
 EMAIL_TO = os.environ.get("EMAIL_TO", "").strip()
 
-# export SMTP_HOST="smtp.gmail.com"
-# export SMTP_PORT=587
-# export SMTP_USERNAME="tatsunori.no1@gmail.com"
-# export SMTP_PASSWORD="izvy qdnh jgeh tspv"
-# export EMAIL_FROM="tatsunori.no1@gmail.com"
-# export EMAIL_TO="tatsunori.no1@gmail.com"
-
-
 # ----------------------------
 # Helpers
 # ----------------------------
